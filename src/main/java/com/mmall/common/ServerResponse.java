@@ -9,7 +9,7 @@ import java.io.Serializable;
  * Created by cpppp on 17-5-25.
  */
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
-//保证序列化Json的时候,如果是Null对象,ke也会消失
+//保证序列化Json的时候,如果是Null对象,key也会消失
 public class ServerResponse<T> implements Serializable {
 
     private int status;

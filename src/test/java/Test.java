@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.Enumeration;
 import java.util.Properties;
+import java.sql.*;
 
 /**
  * Created by cpppp on 17-5-26.
@@ -18,6 +19,11 @@ public class Test {
             System.out.println(properties.getProperty(s.toString()));
         }
 
+    }
+
+    @org.junit.Test
+    public void testJDBC() {
+        System.out.println("helloworld");
     }
 
 }
